@@ -179,7 +179,7 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
-  height: 100px;
+  height: 40px;
 }
 .links a {
   color: var(--clr-grey-3);
@@ -198,13 +198,11 @@ nav {
 .social-icons {
   display: none;
 }
-/* By default hide links */
 .links {
-  height: 0;
+  /* height: 0;
   overflow: hidden;
-  transition: var(--transition);
+  transition: var(--transition); */
 }
-/* Toggle Class */
 .show-links {
   height: 10rem;
 }
@@ -223,10 +221,6 @@ nav {
   .nav-toggle {
     display: none;
   }
-  .hamburger-menu {
-    width: 50%;
-    height: auto;
-  }
   .links {
     height: auto;
     display: flex;
@@ -238,5 +232,16 @@ nav {
   .links a:hover {
     padding: 0;
     background: transparent;
+  }
+  .social-icons {
+    display: flex;
+  }
+  .social-icons a {
+    margin: 0 0.5rem;
+    color: var(--clr-primary-5);
+    transition: var(--transition);
+  }
+  .social-icons a:hover {
+    color: var(--clr-primary-7);
   }
 }
