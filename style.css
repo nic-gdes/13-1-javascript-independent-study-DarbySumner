@@ -168,14 +168,12 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: var(--clr-primary-1);
   transform: rotate(90deg);
 }
 .logo {
@@ -201,11 +199,13 @@ nav {
 .social-icons {
   display: none;
 }
+/* By default hide links */
 .links {
-  /* height: 0;
+  height: 0;
   overflow: hidden;
-  transition: var(--transition); */
+  transition: var(--transition); 
 }
+/* Toggle Class */
 .show-links {
   height: 10rem;
 }
@@ -235,16 +235,5 @@ nav {
   .links a:hover {
     padding: 0;
     background: transparent;
-  }
-  .social-icons {
-    display: flex;
-  }
-  .social-icons a {
-    margin: 0 0.5rem;
-    color: var(--clr-primary-5);
-    transition: var(--transition);
-  }
-  .social-icons a:hover {
-    color: var(--clr-primary-7);
   }
 }
