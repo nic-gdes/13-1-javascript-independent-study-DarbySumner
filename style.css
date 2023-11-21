@@ -173,15 +173,14 @@ nav {
   transition: var(--transition);
   cursor: pointer;
 }
-.nav-toggle:hover {
-  transform: rotate(90deg);
-}
+
 .logo {
  display:inline-block;
  flex-direction: row;
   height: 130px;
   
 }
+
 .links a {
   color: var(--clr-grey-3);
   font-size: 1rem;
